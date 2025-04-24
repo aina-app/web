@@ -55,7 +55,7 @@
             background-image: none !important; /* Remove gradient */
         }
         
-        .text-primary, .btn-outline-primary, .border-primary {
+        .text-primary, .btn-outline-primary, .border-primary, .text-primary-gradient {
             color: #E95D41 !important;
         }
         
@@ -86,6 +86,15 @@
         .bg-secondary-gradient {
             background: #FF7D63 !important;
             background-image: none !important; /* Remove gradient */
+        }
+        
+        .text-secondary, .text-secondary-gradient {
+            color: #FF7D63 !important;
+        }
+        
+        /* Fix for testimonial stars */
+        .text-warning {
+            color: #ffc107 !important;
         }
     </style>
 </head>
@@ -229,7 +238,138 @@
         </div>
         <!-- Features End -->
 
-        <!-- Footer (keeping the rest of the original content, just updating colors) -->
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5" id="review">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary fw-medium">Testimonials</h5>
+                    <h1 class="mb-5">What Our Fashion Enthusiasts Say</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-1.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Ayşe K.</h5>
+                                <p class="mb-1">Fashion Blogger</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">AINA has completely changed how I put together outfits! The AI recommendations are spot-on and I've discovered combinations I never would have thought of. Absolutely love the swipe feature!</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-2.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Mehmet B.</h5>
+                                <p class="mb-1">Business Professional</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">I used to struggle with finding the right clothes for work. AINA has simplified my morning routine and helped me build a wardrobe that actually works together. Worth every penny!</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-3.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Zeynep Y.</h5>
+                                <p class="mb-1">Student</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">On a student budget, I need to make smart choices with clothing. AINA has helped me create so many outfits from just a few pieces. The camera feedback feature is incredible!</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-4.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Can T.</h5>
+                                <p class="mb-1">Photographer</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">As someone who works in a creative field, my appearance matters. AINA has helped me develop a unique style that stands out while still being practical. The curated feed is my favorite feature!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary fw-medium">Contact Us</h5>
+                    <h1 class="mb-5">Get In Touch!</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <p class="text-center mb-4">Have questions about AINA or want to provide feedback? We'd love to hear from you! Fill out the form below and our team will get back to you as soon as possible.</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer -->
         <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
