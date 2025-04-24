@@ -96,6 +96,42 @@
         .text-warning {
             color: #ffc107 !important;
         }
+
+        .team-item {
+        transition: .5s;
+        box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+        }
+        
+        .team-item:hover {
+            box-shadow: 0 0 45px rgba(0, 0, 0, .15);
+        }
+
+        .team-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #FBFAF4;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+        }
+
+        .btn-square {
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: normal;
+            border-radius: 50px;
+            border: 1px solid #E95D41;
+            color: #E95D41;
+            background: transparent;
+            transition: .5s;
+        }
+
+        .btn-square:hover {
+            background: #E95D41;
+            color: #FFFFFF;
+        }
     </style>
 </head>
 
@@ -126,6 +162,7 @@
                         <a href="#about" class="nav-item nav-link">About</a>
                         <a href="#feature" class="nav-item nav-link">Feature</a>
                         <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#team" class="nav-item nav-link">Team</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="https://forms.gle/yZFr5mGnsbyALjy9A" target="_blank" class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get in the Team</a>
@@ -355,6 +392,76 @@
         <!-- Download End -->
 
 
+        <!-- Team Start -->
+        <div class="container-xxl py-5" id="team">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary fw-medium">Our Team</h5>
+                    <h1 class="mb-5">Meet the AINA Team</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="Berk Emre Mert">
+                                <h5>Berk Emre Mert</h5>
+                                <span class="text-primary">Design & Business</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="mailto:berkemremert@aina.one"><i class="fa fa-envelope"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/berkemremert/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square mx-1" href="https://github.com/berkemremert"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="Zeynep Yorulmaz">
+                                <h5>Zeynep Yorulmaz</h5>
+                                <span class="text-primary">Full Stack & Finance</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="mailto:zeynepyorulmaz@aina.one"><i class="fa fa-envelope"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/zeynepyorulmaz/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square mx-1" href="https://github.com/zeynepyorulmaz"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="Deniz Soylular">
+                                <h5>Deniz Soylular</h5>
+                                <span class="text-primary">Frontend & Business</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="mailto:denizsoylular@aina.one"><i class="fa fa-envelope"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/deniz-soylular/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square mx-1" href="https://github.com/Dsoylular"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-4.jpg" alt="Kerem B. Yılmaz">
+                                <h5>Kerem B. Yılmaz</h5>
+                                <span class="text-primary">Full Stack & Design</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="mailto:keremburakyilmaz@aina.one"><i class="fa fa-envelope"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/k-burak-yilmaz/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square mx-1" href="https://github.com/keremburakyilmaz"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
         <!-- Contact Start -->
         <div class="container-xxl py-5" id="contact">
             <div class="container py-5 px-lg-5">
@@ -435,29 +542,40 @@
         <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Address</h4>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>Rumelifeneri Cad., Istanbul, Turkey</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+90 533 479 1252</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@aina.one</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Some Links that You Might Need</h4>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Newsletter</h4>
-                        <p>Stay updated with the latest fashion trends and app features</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    <div class="container py-5 px-lg-5">
+                        <div class="row g-5">
+                            <div class="col-md-6 col-lg-3">
+                                <h4 class="text-white mb-4">Address</h4>
+                                <p><i class="fa fa-map-marker-alt me-3"></i>Rumelifeneri Cad., Istanbul, Turkey</p>
+                                <p><i class="fa fa-phone-alt me-3"></i>+90 533 479 1252</p>
+                                <p><i class="fa fa-envelope me-3"></i>info@aina.one</p>
+                                <div class="d-flex pt-2">
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-github"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <h4 class="text-white mb-4">Team Contacts</h4>
+                                <p><a href="mailto:berkemremert@aina.one" class="text-light">berkemremert@aina.one</a></p>
+                                <p><a href="mailto:zeynepyorulmaz@aina.one" class="text-light">zeynepyorulmaz@aina.one</a></p>
+                                <p><a href="mailto:denizsoylular@aina.one" class="text-light">denizsoylular@aina.one</a></p>
+                                <p><a href="mailto:keremburakyilmaz@aina.one" class="text-light">keremburakyilmaz@aina.one</a></p>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <h4 class="text-white mb-4">Quick Links</h4>
+                                <a class="btn btn-link" href="">Privacy Policy</a>
+                                <a class="btn btn-link" href="">Terms & Condition</a>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <h4 class="text-white mb-4">Newsletter</h4>
+                                <p>Stay updated with the latest fashion trends and app features</p>
+                                <div class="position-relative w-100 mt-3">
+                                    <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
+                                    <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
