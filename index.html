@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AINA - Mobile App HTML Template</title>
+    <title>AINA - Tinder For Your Clothing</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="AI fashion app, fashion discovery, outfit recommendations" name="keywords">
+    <meta content="AINA - AI-powered fashion styling app that combines the addictive nature of social discovery platforms with personalized fashion advice" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -38,21 +38,21 @@
             background-color: #FBFAF4;
         }
         
-        h1, h2, h3, h4, h5, h6, .navbar-brand h1, .nav-item {
+        h1, h2, h3, h4, h5, h6, .nav-item {
             font-family: 'Proza Libre', sans-serif;
+        }
+        
+        /* Fix for the AINA title color */
+        .navbar-brand h1 {
+            font-family: 'Proza Libre', sans-serif;
+            color: #E95D41 !important; /* Make sure it's always the brand color */
         }
         
         /* Custom color settings */
         .text-primary-gradient, .btn-primary-gradient, 
         .bg-primary-gradient, .bg-primary {
             background: #E95D41 !important;
-            background-image: linear-gradient(to right, #E95D41, #ff7d63) !important;
-        }
-        
-        .text-primary-gradient {
-            background-image: linear-gradient(to right, #E95D41, #ff7d63);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            background-image: none !important; /* Remove gradient */
         }
         
         .text-primary, .btn-outline-primary, .border-primary {
@@ -63,6 +63,14 @@
             background: #E95D41;
             border-color: #E95D41;
             color: #fff;
+        }
+        
+        /* Hero header buttons - solid white */
+        .hero-header .btn {
+            background: #FFFFFF !important;
+            color: #E95D41 !important;
+            border-color: #FFFFFF !important;
+            font-weight: 500;
         }
         
         .hero-header, .footer {
@@ -77,13 +85,7 @@
         .text-secondary-gradient, .btn-secondary-gradient, 
         .bg-secondary-gradient {
             background: #FF7D63 !important;
-            background-image: linear-gradient(to right, #FF7D63, #ffaa96) !important;
-        }
-        
-        .text-secondary-gradient {
-            background-image: linear-gradient(to right, #FF7D63, #ffaa96);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            background-image: none !important; /* Remove gradient */
         }
     </style>
 </head>
@@ -126,10 +128,10 @@
                 <div class="container px-lg-5">
                     <div class="row g-5">
                         <div class="col-lg-8 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">The Revolutionary App That Helps To Control Your Own Fitness</h1>
-                            <p class="text-white pb-3 animated slideInDown">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>
-                            <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
-                            <a href="" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                            <h1 class="text-white mb-4 animated slideInDown">Tinder For Your Clothing</h1>
+                            <p class="text-white pb-3 animated slideInDown">AI-powered fashion styling app that combines the addictive nature of social discovery platforms with personalized fashion advice. Swipe-based interface for outfit rating and discovery with smart recommendations based on your preferences and body type.</p>
+                            <a href="" class="btn py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Start Swiping</a>
+                            <a href="" class="btn py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Learn More</a>
                         </div>
                         <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
                             <div class="owl-carousel screenshot-carousel">
@@ -152,30 +154,30 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">About App</h5>
-                        <h1 class="mb-4">#1 App For Your Fitness</h1>
-                        <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
+                        <h5 class="text-primary fw-medium">About AINA</h5>
+                        <h1 class="mb-4">The Solution to Fashion Discovery</h1>
+                        <p class="mb-4">Fashion discovery is overwhelming with too many options. Traditional shopping experiences don't provide personalized feedback, and consumers waste money on items that don't work well together. AINA solves these problems with AI-powered recommendations tailored to your style and body type.</p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="d-flex">
-                                    <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                    <i class="fa fa-shopping-bag fa-2x text-primary flex-shrink-0 mt-1"></i>
                                     <div class="ms-3">
                                         <h2 class="mb-0" data-toggle="counter-up">1234</h2>
-                                        <p class="text-primary-gradient mb-0">Active Install</p>
+                                        <p class="text-primary mb-0">Active Users</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                                 <div class="d-flex">
-                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                    <i class="fa fa-tshirt fa-2x text-primary flex-shrink-0 mt-1"></i>
                                     <div class="ms-3">
-                                        <h2 class="mb-0" data-toggle="counter-up">1234</h2>
-                                        <p class="text-secondary-gradient mb-0">Clients Reviews</p>
+                                        <h2 class="mb-0" data-toggle="counter-up">5678</h2>
+                                        <p class="text-primary mb-0">Outfits Created</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a>
+                        <a href="" class="btn btn-primary py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Learn More</a>
                     </div>
                     <div class="col-lg-6">
                         <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
@@ -190,39 +192,38 @@
         <div class="container-xxl py-5" id="feature">
             <div class="container py-5 px-lg-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">App Features</h5>
-                    <h1 class="mb-5">Awesome Features</h1>
+                    <h5 class="text-primary fw-medium">App Features</h5>
+                    <h1 class="mb-5">What Makes AINA Special</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-eye text-white fs-4"></i>
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-thumbs-up text-white fs-4"></i>
                             </div>
-                            <h5 class="mb-3">High Resolution</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Virtual AI Combine</h5>
+                            <p class="m-0">Get smart outfit combinations that match your style preferences and body type, creating the perfect look every time.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-layer-group text-white fs-4"></i>
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-camera text-white fs-4"></i>
                             </div>
-                            <h5 class="mb-3">Retina Ready</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Camera Integration</h5>
+                            <p class="m-0">Get real-time feedback on your outfits with our camera integration. Just snap a photo and let our AI analyze your look.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-edit text-white fs-4"></i>
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-stream text-white fs-4"></i>
                             </div>
-                            <h5 class="mb-3">Editable Data</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Curated Style Feed</h5>
+                            <p class="m-0">Discover new style combinations and individual pieces through our personalized feed tailored to your unique fashion preferences.</p>
                         </div>
                     </div>
-                    <!-- Additional features continue below -->
-                    <!-- ... rest of features ... -->
+                    <!-- Additional features can be added here -->
                 </div>
             </div>
         </div>
@@ -234,9 +235,9 @@
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
                         <h4 class="text-white mb-4">Address</h4>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, Istanbul, Turkey</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+90 123 456 7890</p>
+                        <p><i class="fa fa-envelope me-3"></i>info@ainaapp.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -262,10 +263,10 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h4 class="text-white mb-4">Newsletter</h4>
-                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
+                        <p>Stay updated with the latest fashion trends and app features</p>
                         <div class="position-relative w-100 mt-3">
                             <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary-gradient fs-4"></i></button>
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
                     </div>
                 </div>
