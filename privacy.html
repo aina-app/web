@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Gizlilik Politikası & Privacy Policy | AINA</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+    .lang-switch { margin-bottom: 2rem; text-align: center; }
+    .lang-switch button { margin-right: 1rem; padding: 0.5rem 1.2rem; }
+    .section { background: #fff; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 8px #0001; max-width: 800px; margin-left: auto; margin-right: auto; }
+    h1, h2 { color: #E95D41; }
+    .hidden { display: none; }
+    a { color: #E95D41; }
+    .navbar { background: #E95D41; }
+    .navbar-brand, .nav-link, .navbar-nav .nav-link.active { color: #fff !important; }
+    .nav-link:hover { color: #FF7D63 !important; }
+  </style>
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.tr').forEach(e => e.classList.toggle('hidden', lang !== 'tr'));
+      document.querySelectorAll('.en').forEach(e => e.classList.toggle('hidden', lang !== 'en'));
+    }
+    window.onload = () => switchLang('tr');
+  </script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">AINA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="privacy.html">Privacy Policy</a></li>
+          <li class="nav-item"><a class="nav-link" href="delete-account.html">Delete Account/Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="lang-switch">
+    <button class="btn btn-outline-primary me-2" onclick="switchLang('tr')">Türkçe</button>
+    <button class="btn btn-outline-primary" onclick="switchLang('en')">English</button>
+  </div>
+
+  <div class="section tr">
+    <h1>Gizlilik Politikası</h1>
+    <p><strong>AINA</strong> olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, uygulamamızda topladığımız, kullandığımız, sakladığımız ve koruduğumuz kişisel veriler hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.</p>
+    <h2>Toplanan Veriler</h2>
+    <ul>
+      <li>Kişisel bilgiler (isim, e-posta adresi)</li>
+      <li>Profil bilgileri (cinsiyet, doğum tarihi, ebeveyn durumu, meslek)</li>
+      <li>Fiziksel özellikler (boy, kilo, vücut şekli, saç rengi)</li>
+      <li>Giyim tercihleri (beden tercihleri, stil tercihleri, marka tercihleri, bütçe)</li>
+      <li>Giyim tercihleri (kaçınılması gereken renkler ve desenler)</li>
+      <li>Kullanım verileri (beğenilen ve beğenilmeyen kıyafetler)</li>
+      <li>Geri bildirimler ve hata raporları</li>
+      <li>Cihaz bilgileri (uygulama kullanım istatistikleri)</li>
+    </ul>
+    <h2>Veri Kullanımı</h2>
+    <ul>
+      <li>Kişiselleştirilmiş kıyafet önerileri sunmak</li>
+      <li>Uygulama deneyimini iyileştirmek ve geliştirmek</li>
+      <li>Kullanıcı desteği sağlamak</li>
+      <li>Yasal yükümlülükleri yerine getirmek</li>
+    </ul>
+    <h2>Veri Saklama Süresi</h2>
+    <p>Hesabınız aktif olduğu sürece verileriniz saklanır. Hesabınızı sildikten sonra, yasal gereklilikler dışında verileriniz 30 gün içinde silinir.</p>
+    <h2>Veri Paylaşımı</h2>
+    <p>Verileriniz üçüncü şahıslarla paylaşılmaz, yalnızca yasal zorunluluklar halinde paylaşılır.</p>
+    <h2>Haklarınız</h2>
+    <p>Hesabınızı ve verilerinizi silme hakkına sahipsiniz. Bunun için aşağıdaki bağlantıyı kullanabilirsiniz.</p>
+    <p><a href="#delete-section" onclick="document.getElementById('delete-section').scrollIntoView({behavior:'smooth'});">Hesap/Veri Silme Talebi</a></p>
+    <p>Daha fazla bilgi veya talepleriniz için bizimle iletişime geçebilirsiniz: <a href="mailto:info@aina.one">info@aina.one</a></p>
+  </div>
+  <div class="section en hidden">
+    <h1>Privacy Policy</h1>
+    <p>At <strong>AINA</strong>, we highly value the privacy of our users. This privacy policy is designed to inform you about the personal data we collect, use, store, and protect within our application.</p>
+    <h2>Data Collected</h2>
+    <ul>
+      <li>Personal information (name, email address)</li>
+      <li>Profile information (gender, birth date, parent situation, occupation)</li>
+      <li>Physical attributes (height, weight, body shape, hair color)</li>
+      <li>Clothing preferences (size preferences, style preferences, brand preferences, budget)</li>
+      <li>Clothing preferences (colors and patterns to avoid)</li>
+      <li>Usage data (liked and disliked clothing items)</li>
+      <li>Feedback and bug reports</li>
+      <li>Device information (app usage statistics)</li>
+    </ul>
+    <h2>Data Usage</h2>
+    <ul>
+      <li>To provide personalized clothing recommendations</li>
+      <li>To improve and develop the application experience</li>
+      <li>To offer user support</li>
+      <li>To fulfill legal obligations</li>
+    </ul>
+    <h2>Data Retention Period</h2>
+    <p>Your data is stored as long as your account is active. After you delete your account, your data will be deleted within 30 days, except where required by law.</p>
+    <h2>Data Sharing</h2>
+    <p>Your data is not shared with third parties, except where legally required.</p>
+    <h2>Your Rights</h2>
+    <p>You have the right to request deletion of your account and data. You can use the link below for this purpose.</p>
+    <p><a href="#delete-section" onclick="document.getElementById('delete-section').scrollIntoView({behavior:'smooth'});">Account/Data Deletion Request</a></p>
+    <p>For more information or requests, please contact us at: <a href="mailto:info@aina.one">info@aina.one</a></p>
+  </div>
+
+  <div class="section tr" id="delete-section">
+    <h1>Hesap ve Veri Silme Talebi</h1>
+    <p><strong>AINA</strong> kullanıcıları, hesaplarının ve ilişkili verilerinin silinmesini talep edebilirler.</p>
+    <h2>Hesap Silme Adımları</h2>
+    <ol>
+      <li>Uygulama içinden "Ayarlar > Hesabımı Sil" menüsüne gidin ve talebinizi iletin.</li>
+      <li>Alternatif olarak, aşağıdaki formu doldurarak da silme talebinde bulunabilirsiniz.</li>
+    </ol>
+    <p>
+      <a href="mailto:info@aina.one?subject=Hesap%20Silme%20Talebi&body=Lütfen%20hesabımın%20ve%20ilişkili%20verilerimin%20silinmesini%20talep%20ediyorum.">Hesap Silme Talep Formu (E-posta)</a>
+    </p>
+    <h2>Silinen/Saklanan Veriler</h2>
+    <p>Hesabınız ve ilişkili tüm kişisel verileriniz 30 gün içinde tamamen silinir. Yasal gereklilikler nedeniyle bazı veriler daha uzun süre saklanabilir.</p>
+    <h2>Veri Silme Talepleri</h2>
+    <p>Hesabınızı silmeden, belirli verilerinizin silinmesini talep etmek için bizimle iletişime geçebilirsiniz: <a href="mailto:info@aina.one">info@aina.one</a></p>
+    <p>Daha fazla bilgi için <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});">Gizlilik Politikamıza</a> göz atabilirsiniz.</p>
+  </div>
+  <div class="section en hidden" id="delete-section">
+    <h1>Account and Data Deletion Request</h1>
+    <p><strong>AINA</strong> users can request the deletion of their account and associated data.</p>
+    <h2>Account Deletion Steps</h2>
+    <ol>
+      <li>Go to "Settings > Delete My Account" in the app and submit your request.</li>
+      <li>Alternatively, you can fill out the form below to request deletion.</li>
+    </ol>
+    <p>
+      <a href="mailto:info@aina.one?subject=Account%20Deletion%20Request&body=I%20would%20like%20to%20request%20the%20deletion%20of%20my%20account%20and%20associated%20data.">Account Deletion Request Form (Email)</a>
+    </p>
+    <h2>Data Deleted/Retained</h2>
+    <p>Your account and all associated personal data will be deleted within 30 days. Some data may be retained longer due to legal requirements.</p>
+    <h2>Data Deletion Requests</h2>
+    <p>If you wish to delete specific data without deleting your account, please contact us at: <a href="mailto:info@aina.one">info@aina.one</a></p>
+    <p>For more information, please see our <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});">Privacy Policy</a>.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
